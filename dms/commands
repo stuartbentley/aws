@@ -6,3 +6,4 @@ Database Migration commands
 ### commands
 
 `aws dms create-replication-task --replication-task-identifier migrate-featureserver3-aurora  --source-endpoint-arn arn:aws:dms:eu-west-2:347153953332:endpoint:JPUPEYMXVI2WEFCXPJAXOWDM7I --target-endpoint-arn arn:aws:dms:eu-west-2:347153953332:endpoint:2I4QRBJXUILT7DY2TF5JGV57AI --replication-instance-arn arn:aws:dms:eu-west-2:347153953332:rep:NGZQUCWU5ZWWXEG7IGKB4CRV2Y --migration-type full-load-and-cdc --table-mappings file://table-mappings.json --replication-task-settings file://replication-task-settings.json`
+
